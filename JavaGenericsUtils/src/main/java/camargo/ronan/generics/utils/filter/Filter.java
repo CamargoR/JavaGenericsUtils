@@ -6,7 +6,7 @@ import camargo.ronan.generics.utils.function.Function;
 
 public class Filter<T extends Collection<E>,E> {
 	
-	T collection;
+	private T collection;
 	
 	private Filter(T collection) {		
 		this.collection = collection;

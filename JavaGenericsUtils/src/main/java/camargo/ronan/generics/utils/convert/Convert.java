@@ -6,7 +6,7 @@ import camargo.ronan.generics.utils.function.Function;
 
 public class Convert<T extends Collection<I>,I,U extends Collection<O>, O> {
 	
-	T collection;
+	private T collection;
 	
 	private Convert(T collection) {
 		this.collection = collection;
