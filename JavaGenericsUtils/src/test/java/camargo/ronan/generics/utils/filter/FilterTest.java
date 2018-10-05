@@ -23,7 +23,7 @@ public class FilterTest {
 		
 		Assert.assertNotSame(numbers, numbersGreaterThanFive);
 		Assert.assertTrue(numbersGreaterThanFive.size() == 1);
-		Assert.assertTrue(ComparableUtils.isEqualTo(numbersGreaterThanFive.get(0), BigDecimal.TEN));;
+		Assert.assertTrue(ComparableUtils.isEqualTo(numbersGreaterThanFive.get(0), BigDecimal.TEN));
 	}
 	
 	private class GreaterThanFive implements Function<BigDecimal, Boolean>{
